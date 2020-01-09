@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>StarWarsAPI</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="app.js" defer></script>
+	</head>
+	<body>
+		<h1 id="top">The Star Wars Dashboard</h1>
+		<div
+			id="lists"
+			style="display:flex; flex-direction: row; justify-content: space-evenly; font-size: 16px;"
+		>
+			<div id="films">
+				<h1>Films</h1>
+				<input
+					type="text"
+					onkeypress="filterFilms(event)"
+					class="form-control"
+					placeholder="Search here"
+					id="filmbox"
+				/><br />
+			</div>
+			<div id="people">
+				<h1>People</h1>
+				<input
+					type="text"
+					onkeypress="filterPeople(event)"
+					class="form-control"
+					id="peoplebox"
+				/><br />
+			</div>
+			<div id="starships">
+				<h1>Starships</h1>
+				<input
+					type="text"
+					onkeypress="filterShips(event)"
+					class="form-control"
+					id="starshipbox"
+				/><br />
+			</div>
+			<div id="vehicles">
+				<h1>Vehicles</h1>
+				<input
+					type="text"
+					onkeypress="filterVeh(event)"
+					class="form-control"
+					id="vehiclebox"
+				/><br />
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,24 @@
+.list {
+	border: 2px solid black;
+	border-radius: 4%;
+	padding: 3px;
+	font-size: 12pt;
+}
+
+#lists {
+	list-style: none;
+}
+
+.topText {
+	font-weight: bold;
+}
+
+#top {
+	font-family: arial;
+	font-size: 48px;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+.body {
+	font-family: arial;
+}
